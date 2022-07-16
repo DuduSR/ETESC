@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAETEC/ETESC</title>
+
+    <link rel="stylesheet" href="css/style.css" id="linkCss">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon" size="32x32">
+    
+    <script defer src="javaScript/programacao.js" language="JavaScript" type="text/JavaScript"></script>
+    <script defer src="javaScript/acessibilidade.js" language="JavaScript" type="text/JavaScript"></script>
+</head>
+<body>
+    <header>
+        <form id="formPesquisa">
+            <input type="text" id="pesquisa" placeholder="Pesquisar">
+            <input type="button" id="btnPesquisar" value="Buscar">
+        </form>
+        <a href="index.html"><img src="imagens/logo.png" alt="Logo da ETESC" id="etesc" title="Clique para ir ao site da FAETEC!"><a>
+            <nav id="nav">
+                <ul>
+                    <li class="alinhamento"><a href="index.html" class="linkNav">Início</a></li>
+                    <li class="alinhamento"><a href="egressos.html" class="linkNav">Egressos</a></li>
+                    <li class="alinhamento"><a href="sobre.html" class="linkNav">Sobre nós</a></li>
+                    <li class="alinhamento" id="seta" onclick="moverAcesso()"><img src="imagens/setaDown.png" alt="" id="imgSeta"></li>
+                </ul>  
+            </nav>
+            <div id="acesso">
+                <ul id="listaAcesso">
+                    <div id="alinhamentoEscuro">
+                        <li class="conteudoAcesso">Modo Escuro</li>
+                        <li class="conteudoAcesso" id="btnAcesso"><img id="btnEscuro" src="imagens/switchOff.png" alt="" onclick="modoEscuroSobre()"></li>
+                    </div>
+                    <hr id="linhaAcesso">
+                    <li class="conteudoAcesso" id="idioma">Idioma</li>
+                    <div id="bandeiras">
+                        <li class="bandeiras"><a href="sobre.html"><img src="imagens/brasil.png" alt="bandeira do brasil"></a></li>
+                        <li class="bandeiras"><a href="pages/ing/sobreIngles.html"><img src="imagens/united-states.png" alt="bandeira do brasil"></a></li>
+                        <li class="bandeiras"><a href="pages/esp/sobreEspanhol.html"><img src="imagens/espanha.png" alt="bandeira do brasil"></a></li>
+                    </div>
+                </ul>
+            </div>
+    </header>
+
+    <div id="sobre">
+        <div id="ajusteSobre">
+        
+        <img src="imagens/img_sobre.jpg" id="img_sobre">
+
+        <div id="img_h1_sobre">
+            
+            <h1 class="h1Sobre" id="t1">PEI 2022</h1>
+            <div id="icones">
+                <img src="imagens/escola.png" alt="Icone de uma escola" class="img_auto" id="escola">    
+                <img src="imagens/graduado.png" alt="Icone de um estudante" class="img_auto" id="graduado">
+            </div>
+        </div>
+    </div>
+        <center>
+            <div class="textoSobre" id="ajust1">
+                <h1 class="conteudoSobre">QUEM</h1>
+                <h2 class="conteudoSobre">SOMOS?</h2>
+                <br>
+                <span class="preto"><p class="conteudoSobre">Integramos o time de estagiários selecionados oficialmente pela Equipe de Informática da ETESC e contratados pela rede FAETEC de ensino. Preenchemos a equipe diurna do Plano de Estágio Interno Supervisionado e visamos o desenvolvimento de sistemas informacionais.</p></span>
+            </div>
+
+            <div class="textoSobre" id="ajust2">
+                <h1 class="conteudoSobre">O QUE</h1>
+                <h2 class="conteudoSobre">FAZEMOS?</h2>
+                <br>
+                <span class="preto"><p class="conteudoSobre">A nós foi incumbida a missão de desenvolver um site útil e dinâmico que atraísse e modificasse a visão negativa daqueles que mal vêem a Escola Técnica Estadual Santa Cruz. Para tal, utilizamos depoimentos de ex-alunos bem-sucedidos da instituição.</p></span>
+            </div>
+
+            <div class="textoSobre" >
+                <h1 class="conteudoSobre">COMO</h1>
+                <h2 class="conteudoSobre">INGRESSAR?</h2>
+                <br>
+                <span class="preto"><p class="conteudoSobre">Para se tornar aluno da instituição é necessário que o interessado realize o exame de admissão e se classifique. Para saber mais sobre certame, <a href="http://www.faetec.rj.gov.br/" id="clique">clique aqui</a>.</p></span>
+                <br>
+                <br>
+            </div>
+        </center>
+    </div>
+
+    <footer id="footerSobre">
+        <p>Todos os direitos reservados ao <a href="">Plano de Estágio Interno 2022</a>.</p>
+    </footer>
+</body>
+</html>

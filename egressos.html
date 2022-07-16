@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAETEC/ETESC</title>
+    
+    <link rel="stylesheet" href="css/style.css" id="linkCss">
+    <link rel="shortcut icon" href="imagens/logo.png" type="image/x-icon" size="32x32">
+    
+    <script defer src="javaScript/programacao.js" language="JavaScript" type="text/JavaScript"></script>
+    <script defer src="javaScript/acessibilidade.js" language="JavaScript" type="text/JavaScript"></script>
+</head>
+<body>
+    <header>
+        <form id="formPesquisa">
+            <input type="text" id="pesquisa" placeholder="Pesquisar">
+            <input type="button" id="btnPesquisar" value="Buscar">
+        </form>
+        <a href="index.html"><img src="imagens/logo.png" alt="Logo da ETESC" id="etesc" title="Clique para ir ao site da FAETEC!"><a>
+            <nav id="nav">
+                <ul>
+                    <li class="alinhamento"><a href="index.html" class="linkNav">Início</a></li>
+                    <li class="alinhamento"><a href="egressos.html" class="linkNav">Egressos</a></li>
+                    <li class="alinhamento"><a href="sobre.html" class="linkNav">Sobre nós</a></li>
+                    <li class="alinhamento" id="seta" onclick="moverAcesso()"><img src="imagens/setaDown.png" alt="" id="imgSeta"></li>
+                </ul>  
+            </nav>
+            <div id="acesso">
+                <ul id="listaAcesso">
+                    <div id="alinhamentoEscuro">
+                        <li class="conteudoAcesso">Modo Escuro</li>
+                        <li class="conteudoAcesso" id="btnAcesso"><img id="btnEscuro" src="imagens/switchOff.png" alt="" onclick="modoEscuro()"></li>
+                    </div>
+                    <hr id="linhaAcesso">
+                    <li class="conteudoAcesso" id="idioma">Idioma</li>
+                    <div id="bandeiras">
+                        <li class="bandeiras"><a href="egressos.html"><img src="imagens/brasil.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                        <li class="bandeiras"><a href="pages/ing/egressosIngles.html"><img src="imagens/united-states.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                        <li class="bandeiras"><a href="pages/esp/egressosEspanhol.html"><img src="imagens/espanha.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                    </div>
+                </ul>
+            </div>
+    </header>
+
+    
+    <div id="alinhamentoEngre">
+    <div id="ajusteEngre">
+        <h1 id="t1">Trajetórias vitoriosas</h1>
+        <h2>Confira nossas histórias de sucesso!</h2>
+
+
+        
+            <div class="imgH3">
+                <img src="imagens/generico.png" alt="imagem do aluno 1" class="aluno" id="img1" onclick="mover1()" title="Clique aqui para ver mais!">
+                <h3 class="nome" id="txt1" onclick="mover1()" title="Clique aqui para ver mais!">Nome do Egresso</h3>
+            </div>
+            <div class='pEngressores' id="para1">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta!</p> 
+            </div>
+        
+        
+
+            <div class="imgH3">
+                <img src="imagens/generico.png" alt="imagem do aluno 2" class="aluno" id="img2" onclick="mover2()" title="Clique aqui para ver mais!">
+                <h3 class="nome" id="txt2" onclick="mover2()" title="Clique aqui para ver mais!">Nome do Egresso</h3>        
+            </div>
+            <div class='pEngressores' id="para2">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta!</p> 
+            </div>
+
+            <div class="imgH3">
+                <img src="imagens/generico.png" alt="imagem do aluno 3" class="aluno" id="img3" onclick="mover3()" title="Clique aqui para ver mais!">
+                <h3 class="nome" id="txt3" onclick="mover3()" title="Clique aqui para ver mais!">Nome do Egresso</h3>
+            </div>
+            <div class='pEngressores' id="para3">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta!</p> 
+            </div>
+
+            <div class="imgH3">
+                <img src="imagens/generico.png" alt="imagem do aluno 4" class="aluno" id="img4" onclick="mover4()" title="Clique aqui para ver mais!">
+                <h3 class="nome" id="txt4" onclick="mover4()" title="Clique aqui para ver mais!">Nome do Egresso</h3>
+            </div>
+            <div class='pEngressores' id="para4">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta!</p> 
+            </div>
+            
+            <div class="imgH3" id="ultimoImgH3">
+                <img src="imagens/generico.png" alt="imagem do aluno 5" class="aluno" id="img5" onclick="mover5()" title="Clique aqui para ver mais!">
+                <h3 class="nome" id="txt5" onclick="mover5()" title="Clique aqui para ver mais!">Nome do Egresso</h3>
+            </div>
+            <div class='pEngressores' id="para5">
+                <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit esse modi id non fugit possimus accusantium? Repellat eligendi eos libero aspernatur accusantium at, cum, a blanditiis temporibus, excepturi laudantium soluta!</p> 
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Todos os direitos reservados ao <a href="">Plano de Estágio Interno 2022</a>.</p>
+    </footer>
+</body>
+</html>

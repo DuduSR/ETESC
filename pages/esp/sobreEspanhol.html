@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAETEC/ETESC</title>
+
+    <link rel="stylesheet" href="../../css/style.css" id="linkCss">
+    <link rel="shortcut icon" href="../../imagens/logo.png" type="image/x-icon" size="32x32">
+    
+    <script defer src="../../javaScript/programacao.js" language="JavaScript" type="text/JavaScript"></script>
+    <script defer src="../../javaScript/acessibilidade.js" language="JavaScript" type="text/JavaScript"></script>
+</head>
+<body>
+    <header>
+        <form id="formPesquisa">
+            <input type="text" id="pesquisa" placeholder="Encontrar">
+            <input type="button" id="btnPesquisar" value="Buscar">
+        </form>
+        <a href="indexEspanhol.html"><img src="../../imagens/logo.png" alt="Logo da ETESC" id="etesc" title="Clique para ir ao site da FAETEC!"><a>
+            <nav id="nav">
+                <ul>
+                    <li class="alinhamento"><a href="indexEspanhol.html" class="linkNav" id="navInicio">Comienzo</a></li>
+                    <li class="alinhamento"><a href="egressosEspanhol.html" class="linkNav" id="navEgressos">Graduados</a></li>
+                    <li class="alinhamento"><a href="sobreEspanhol.html" class="linkNav" id="navSobre">Sobre nosotros</a></li>
+                    <li class="alinhamento" id="seta" onclick="moverAcessoEspIng()"><img src="../../imagens/setaDown.png" alt="" id="imgSeta"></li>
+                </ul>  
+            </nav>
+            <div id="acesso">
+                <ul id="listaAcesso">
+                    <div id="alinhamentoEscuro">
+                        <li class="conteudoAcesso">Modo Oscuro</li>
+                        <li class="conteudoAcesso" id="btnAcesso"><img id="btnEscuro" src="../../imagens/switchOff.png" alt="" onclick="modoEscuroIngEspSobre()"></li>
+                    </div>
+                    <hr id="linhaAcesso">
+                    <li class="conteudoAcesso" id="idioma">Idioma</li>
+                    <div id="bandeiras">
+                        <li class="bandeiras"><a href="../../sobre.html"><img src="../../imagens/brasil.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                        <li class="bandeiras"><a href="../ing/sobreIngles.html"><img src="../../imagens/united-states.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                        <li class="bandeiras"><a href="sobreEspanhol.html"><img src="../../imagens/espanha.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                    </div>
+                </ul>
+            </div>
+    </header>
+
+    <div id="sobre">
+        <div id="ajusteSobre">
+        
+        <img src="../../imagens/img_sobre.jpg" id="img_sobre">
+
+        <div id="img_h1_sobre">
+            
+            <h1 class="h1Sobre" id="t1">PEI 2022</h1>
+            <div id="icones">
+                <img src="../../imagens/escola.png" alt="Icone de uma escola" class="img_auto" id="escola">    
+                <img src="../../imagens/graduado.png" alt="Icone de um estudante" class="img_auto" id="graduado">
+            </div>
+        </div>
+    </div>
+        <center>
+            <div class="textoSobre" id="ajust1">
+                <br>
+                <h1 class="conteudoSobre">¿QUIENES</h1>
+                <h2 class="conteudoSobre">SOMOS?</h2>
+                <br>
+                <span class="preto"><p class="conteudoSobre">Integramos el tiempo de los pasantes seleccionados oficialmente por el Equipo de Informática de ETESC y contratados por la red docente FAETEC. Completamos el equipo diurno del Plan de Prácticas Internas Supervisadas y tenemos como objetivo desarrollar sistemas de información.</p></span>
+            </div>
+
+            <div class="textoSobre" id="ajust2">
+                <h1 class="conteudoSobre">¿QUÉ</h1>
+                <h2 class="conteudoSobre">HACEMOS?</h2>
+                <br>
+                <span class="preto"><p class="conteudoSobre">La misión emprendida de desarrollar un sitio web es útil para atraer y cambiar la visión negativa que la Escuela Estatal de Santa Cruz apenas conoce. Para ello, utilizamos testimonios de exalumnos exitosos de la institución.</p></span>
+                <br>
+                <br>
+            </div>
+
+            <div class="textoSobre" >
+                <h1 class="conteudoSobre">¿COMO</h1>
+                <h2 class="conteudoSobre">UNIRSE?</h2>
+                <br>
+                <span class="preto"><p class="conteudoSobre">Para los estudiantes de la institución, es necesario que el interesado rinda el examen de ingreso y califique. Para obtener más información sobre el derecho, <a href="http://www.faetec.rj.gov.br/" id="clique">haga clic aquí</a>.</p></span>
+                <br>
+                <br>
+                <br>
+            </div>
+        </center>
+    </div>
+
+    <footer id="footerSobre">
+        <p>Todos los derechos reservados a <a href="">Plano de Estágio Interno 2022</a>.</p>
+    </footer>
+</body>
+</html>

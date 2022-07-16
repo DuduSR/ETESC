@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAETEC/ETESC</title>
+
+    <link rel="stylesheet" href="../../css/style.css" id="linkCss">
+    <link rel="shortcut icon" href="../../imagens/logo.png" type="image/x-icon" size="32x32">
+
+    <script defer src="../../javaScript/programacao.js" language="JavaScript" type="text/JavaScript"></script>
+    <script defer src="../../javaScript/acessibilidade.js" language="JavaScript" type="text/JavaScript"></script>
+</head>
+<body>
+    <header>
+        <form id="formPesquisa">
+            <input type="text" id="pesquisa" placeholder="Search">
+            <input type="button" id="btnPesquisar" value="Find">
+        </form>
+        <a href="indexIngles.html"><img src="../../imagens/logo.png" alt="Logo da ETESC" id="etesc" title="Click here to go to the FAETEC's website!"><a>
+            <nav id="nav">
+                <ul>
+                    <li class="alinhamento"><a href="indexIngles.html" class="linkNav" id="navInicio">Home</a></li>
+                    <li class="alinhamento"><a href="egressosIngles.html" class="linkNav" id="navEgressos">Graduates</a></li>
+                    <li class="alinhamento"><a href="sobreIngles.html" class="linkNav" id="navSobre">About Us</a></li>
+                    <li class="alinhamento" id="seta" onclick="moverAcessoEspIng()"><img src="../../imagens/setaDown.png" alt="" id="imgSeta"></li>
+                </ul>  
+            </nav>
+            <div id="acesso">
+                <ul id="listaAcesso">
+                    <div id="alinhamentoEscuro">
+                        <li class="conteudoAcesso" id="modoEscuro">Dark Mode</li>
+                        <li class="conteudoAcesso" id="btnAcesso" onclick="modoEscuroIngEspIndex()"><img id="btnEscuro" src="../../imagens/switchOff.png" alt=""></li>
+                    </div>
+                    <hr id="linhaAcesso">
+                    <li class="conteudoAcesso" id="idioma">Languages</li>
+                    <div id="bandeiras">
+                        <li class="bandeiras"><a href="../../index.html"><img src="../../imagens/brasil.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                        <li class="bandeiras"><a href="indexIngles.html"><img src="../../imagens/united-states.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                        <li class="bandeiras"><a href="../esp/indexEspanhol.html"><img src="../../imagens/espanha.png" alt="bandeira do brasil" class="tamanhoBandeiras"></a></li>
+                    </div>
+                </ul>
+            </div>
+    </header>
+
+    <div id="principal">
+        <h1 id="t1">Do you believe in the potential of ETESC?</h1>
+        <h2 id="t2">If not, keep reading and you will change your mind!</h2>
+
+        <div id="conteudo">
+        <div id="section">
+
+            <div id="carrosel">
+                <img src="../../imagens/campus_etesc.jpg" alt="Imagem do campus da ETESC" class="campus">
+                <img src="../../imagens/fora.jpg" alt="" class="campus">
+                <img src="../../imagens/refeitorio.jpg" alt="" class="campus">
+                <img src="../../imagens/piscina.jpg" alt="" class="campus">
+                <img src="../../imagens/bancos.jpg" alt="" class="campus">
+                <img src="../../imagens/campus_etesc.jpg" alt="Imagem do campus da ETESC" class="campus">
+
+            </div>
+        </div>
+        <div id="paragrafo">
+            <p id="txtIndex">
+                Much is said about the credibility of ETESC. The same boats always run through the west side: 
+                "Nobody studies at FAETEC!", "There isn't even a teacher there", "They live on strike!", 
+                "This network is a mess!". It's all a lie! The Santa Cruz State Technical School From 1998 to 1998. 
+                Before its slaughter, the space before its existence, which emerged from the space of Rio de Janeiro.
+                 Like them, do you want to be a renowned person??? 
+                If yes, <a href="egressosIngles.html" id="clique">click here</a> and follow the trajectory of successful graduates of the school.
+            </p>
+            
+        </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p id="txtFooter">All rights reserved to <a href="">Plano de Estágio Interno 2022</a>.</p>
+    </footer>
+</body>
+</html>
